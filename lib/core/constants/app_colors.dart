@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  AppColors._();
-
-    static const Color goldColor = Color.fromARGB(255, 230, 179, 13);
-        static const Color silverColor = Color.fromARGB(255, 175, 175, 173);
-
-
+  static const Color goldColor = Color(0xFFE6B30D);
+  static const Color silverColor = Color(0xFFA9A9A9);
 }

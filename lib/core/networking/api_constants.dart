@@ -1,6 +1,6 @@
 class ApiConstants {
   
-  static const String baseUrl = 'https://api.example.com';
-  static const String goldEndpoint = '/auth/login';
-  static const String silverEndpoint = '/auth/register';
+  static const String baseUrl = 'https://api.gold-api.com/price/';
+  static const String goldEndpoint = 'XAU';
+  static const String silverEndpoint = 'XAG';
 }

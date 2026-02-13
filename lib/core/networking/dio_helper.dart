@@ -1,4 +1,3 @@
-import 'dart:math';
 
 import 'package:dio/dio.dart';
 import 'package:forexy/core/networking/api_constants.dart';
@@ -6,7 +5,7 @@ import 'package:forexy/core/networking/api_constants.dart';
 class DioHelper {
   static late Dio _dio;
 
-  static void init() {
+  static  init() {
     _dio = Dio(
       BaseOptions(
         baseUrl: ApiConstants.baseUrl,
@@ -14,7 +13,7 @@ class DioHelper {
         connectTimeout: Duration(seconds: 10),
         receiveTimeout: Duration(seconds: 10),
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json','User-Agent': 'Mozilla/5.0',
         },
       ),
     );
